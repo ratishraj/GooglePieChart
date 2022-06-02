@@ -4,7 +4,7 @@
 	"name": "Google Pie Chart",
 	"description": "A Google Pie Chart",
 	"newInstancePrefix": "googlePieChart",
-	"icon": "https://firebasestorage.googleapis.com/v0/b/widgets-13c12.appspot.com/o/Piechart%2FPieChart.png?alt=media&token=74f7967e-6a1e-4ddb-80c8-07db6ea7f282",
+	"icon": "https://ratishraj.github.io/GooglePieChart/PieChart.png",
 	"vendor": "BGSW",
 	"eula": "",
 	"license": "",
@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "com-sap-sample-google",
-			"url": "https://firebasestorage.googleapis.com/v0/b/widgets-13c12.appspot.com/o/Piechart%2FgooglePieChart.js?alt=media&token=2e831af0-77ca-409a-805e-1e856669a596",
+			"url": "https://ratishraj.github.io/GooglePieChart/googlePieChart.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
