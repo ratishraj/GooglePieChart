@@ -1,0 +1,73 @@
+{
+	"id": "com.sap.sample.googlePieChart",
+	"version": "1.0.0",
+	"name": "Google Pie Chart",
+	"description": "A Google Pie Chart",
+	"newInstancePrefix": "googlePieChart",
+	"icon": "https://firebasestorage.googleapis.com/v0/b/widgets-13c12.appspot.com/o/Piechart%2FPieChart.png?alt=media&token=74f7967e-6a1e-4ddb-80c8-07db6ea7f282",
+	"vendor": "BGSW",
+	"eula": "",
+	"license": "",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-sap-sample-google",
+			"url": "https://firebasestorage.googleapis.com/v0/b/widgets-13c12.appspot.com/o/Piechart%2FgooglePieChart.js?alt=media&token=2e831af0-77ca-409a-805e-1e856669a596",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"Label": {
+			"type": "string[]",
+			"description": "label",
+			"default": ["RED","green","blue"]
+			
+		},
+		"Value": {
+			"type": "integer[]",
+			"description": "values",
+			"default": [10, 20, 30]
+			
+		}
+	},
+	"methods": {
+
+		"setLabel": {
+			"description": "Sets the label.",
+			"parameters": [
+				{
+					"name": "newLabel",
+					"type": "string[]",
+					"description": "The new label value."
+				}
+			],
+			"body": "this.Label = newLabel;"
+		},
+		"getLabel": {
+			"returnType": "string[]",
+			"description": "Returns the label value",
+			"body": "return this.Label;"
+		},
+
+		"setValue": {
+			"description": "Sets the value.",
+			"parameters": [
+				{
+					"name": "newValue",
+					"type": "integer[]",
+					"description": "The new Value."
+				}
+			],
+			"body": "this.Value = newValue;"
+		},
+		"getValue": {
+			"returnType": "integer[]",
+			"description": "Returns the value",
+			"body": "return this.Value;"
+		}	
+	},
+	"events": {
+	}
+
+}
